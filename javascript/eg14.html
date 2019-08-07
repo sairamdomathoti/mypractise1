@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Spread Operator</title>
+</head>
+<body>
+    <script>
+        //spread operator
+        //arrays
+        let x = [1,2,3]
+        let y = [4,5,6]
+        let z = [...x,...y]
+        console.log("Z: ", z);
+
+        //objects
+
+        let k = { a:100, b: 200}
+        let l = { p: 10, q: 20}
+        let m = {...l, ...k}
+        console.log("m: ", m);
+        </script>
+</body>
+</html>
