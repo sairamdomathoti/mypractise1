@@ -5,6 +5,7 @@
   "main": "List-Modules.js",
   "dependencies": {
     "builtin-modules": "^3.1.0",
+    "express": "^4.17.1",
     "nodemon": "^1.19.1"
   },
   "devDependencies": {},
